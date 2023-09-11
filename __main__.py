@@ -1,9 +1,10 @@
-import traceback
 import sys
+import traceback
+
+from time import sleep
 
 
 from constants.constants import TESTS_PATH
-from time import sleep
 from utils.file_utils import list_py_files
 from utils.function_utils import convert_to_modules, find_functions
 
