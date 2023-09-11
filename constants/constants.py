@@ -1,0 +1,21 @@
+import os
+
+
+# Project folders
+RESOURCES_FOLDER = 'resources'
+RESOURCES_CERTS_FOLDER = 'certs'
+TESTS_FOLDER = 'tests'
+
+# Resources files
+TESTS_CONFIG_FILE = 'config.json'
+
+# Project paths
+PROJECT_PATH = os.getcwd()
+RESOURCES_PATH = os.path.join(PROJECT_PATH, RESOURCES_FOLDER)
+RESOURCES_CERTS_FOLDER_PATH = os.path.join(RESOURCES_PATH, RESOURCES_CERTS_FOLDER)
+TESTS_PATH = os.path.join(PROJECT_PATH, TESTS_FOLDER)
+TESTS_CONFIG_PATH = os.path.join(RESOURCES_PATH, TESTS_CONFIG_FILE)
+
+# Requests
+HTTPS_PROTOCOL_STR = 'https://'
+CERT_FILE_EXTENSION = 'crt'

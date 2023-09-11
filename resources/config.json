@@ -1,0 +1,7 @@
+{
+  "test_resource": {
+    "https_url": "https://heyling.net/",
+    "main_page_header": "Heyling",
+    "cert_name": "heyling.net"
+  }
+}
