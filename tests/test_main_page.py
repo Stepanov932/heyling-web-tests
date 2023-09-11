@@ -7,7 +7,7 @@ from requests.exceptions import ConnectionError
 
 
 from constants.constants import CERT_FILE_EXTENSION, RESOURCES_CERTS_FOLDER_PATH
-from utils.config_utils import config
+from config.config_provider import config
 from utils.file_utils import read_file
 
 

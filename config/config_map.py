@@ -1,7 +1,7 @@
 import re
 
 
-from constants.constants import TESTS_CONFIG_PATH, HTTPS_PROTOCOL_STR
+from constants.constants import HTTPS_PROTOCOL_STR
 from utils.json_utils import read
 
 
@@ -25,6 +25,3 @@ class Config:
     @property
     def test_resource_public_cert_name(self):
         return self.config['test_resource']['cert_name']
-
-
-config = Config(TESTS_CONFIG_PATH)
